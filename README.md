@@ -70,3 +70,68 @@ Executive Operational Insights
 ```
 
 The Python pipeline converts raw governance request data into a standardized, reporting-ready dataset. Power BI then uses the processed data to visualize pipeline health, SLA risk, stage bottlenecks, ownership, missing evidence, and overall governance workload.
+
+---
+
+# Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| Python | Data transformation and automation |
+| Pandas | Data cleaning and validation |
+| Power BI | Executive dashboard and KPI reporting |
+| Git | Version control |
+| GitHub | Source code management and project documentation |
+| CSV | Sample governance data source |
+
+---
+
+# Project Structure
+
+```text
+Cloud-Governance-Operations-Dashboard
+│
+├── dashboard/          # Power BI dashboard
+├── data/
+│   ├── raw/            # Original sample dataset
+│   └── processed/      # Python-generated reporting dataset
+├── docs/               # Supporting documentation
+├── src/                # Python ETL pipeline
+├── tests/              # Unit tests
+├── README.md
+├── requirements.txt
+└── LICENSE
+```
+
+---
+
+# Skills Demonstrated
+
+This project demonstrates experience with:
+
+- Business Analysis
+- Cloud Governance
+- Python Automation
+- Data Transformation
+- Data Validation
+- KPI Development
+- Executive Reporting
+- Power BI Dashboard Design
+- Root Cause Analysis
+- Operational Reporting
+- Git & GitHub
+
+---
+
+# Future Improvements
+
+Future versions of this project may include:
+
+- Automated data ingestion
+- SQL database integration
+- Interactive Streamlit web application
+- Scheduled pipeline execution
+- Email reporting
+- Historical trend analysis
+- Executive scorecards
+- Cloud deployment on Azure
