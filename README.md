@@ -42,3 +42,31 @@ This project simulates an enterprise governance pipeline by:
 The result is an executive dashboard that enables faster operational decision-making.
 
 ---
+
+# Architecture
+
+The solution follows a simple end-to-end reporting flow:
+
+```text
+Raw Governance Data
+        │
+        ▼
+Python ETL Pipeline
+        │
+        ├── Validate required fields
+        ├── Standardize values
+        ├── Remove duplicates
+        ├── Calculate aging and SLA status
+        └── Assign governance health
+        │
+        ▼
+Processed Reporting Dataset
+        │
+        ▼
+Power BI Dashboard
+        │
+        ▼
+Executive Operational Insights
+```
+
+The Python pipeline converts raw governance request data into a standardized, reporting-ready dataset. Power BI then uses the processed data to visualize pipeline health, SLA risk, stage bottlenecks, ownership, missing evidence, and overall governance workload.
