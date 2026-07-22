@@ -1,0 +1,61 @@
+Use Case ID,Owner,Cloud Provider,Current Stage,Submission Date,Days in Stage,Health Status,Missing Evidence,Approved Region,Actual Region,Risk Level
+CG-0001,M. Patel,GCP,Approved,2026-06-19,,,Architecture Diagram,us-east1|us-central1|us-east4,us-east1,Low
+CG-0002,A. Johnson,Azure,Final Triage,2026-02-28,,,,East US|East US 2|Central US,East US,Low
+CG-0003,J. Davis,Azure,Intake,2026-03-10,,,Architecture Diagram,East US|East US 2|Central US,Brazil South,Medium
+CG-0004,A. Johnson,GCP,Security Review,2026-04-01,,,Data Classification,us-east1|us-central1|us-east4,us-central1,High
+CG-0005,K. Williams,Azure,Pre-Validation,2026-03-31,,,Architecture Diagram,East US|East US 2|Central US,Central US,Low
+CG-0006,K. Williams,AWS,Approved,2026-06-23,,,Cost Estimate,us-east-1|us-east-2|us-west-2,us-west-2,High
+CG-0007,A. Johnson,GCP,Pre-Validation,2026-03-22,,,Security Questionnaire,us-east1|us-central1|us-east4,asia-east1,Medium
+CG-0008,A. Johnson,GCP,Pre-Validation,2026-04-16,,,,us-east1|us-central1|us-east4,asia-east1,Medium
+CG-0009,K. Williams,AWS,Approved,2026-06-27,,,Security Questionnaire,us-east-1|us-east-2|us-west-2, us-east-2 ,Medium
+CG-0010,K. Williams,AWS,Security Review,2026-06-06,,,Architecture Diagram; Data Classification,us-east-1|us-east-2|us-west-2,us-west-2,High
+CG-0011,j. davis,GCP,Final Triage,2026-06-29,,,Cost Estimate,us-east1|us-central1|us-east4,asia-east1,Low
+CG-0012,J. Davis,AWS,On Hold,2026-04-11,,,Architecture Diagram; Data Classification,us-east-1|us-east-2|us-west-2,us-west-2,Medium
+CG-0013,K. Williams,gcp,Pre-Validation,2026-04-25,,,,us-east1|us-central1|us-east4,us-east1,Medium
+CG-0014,M. Patel,Azure,Approved,2026-05-24,,,Data Classification,East US|East US 2|Central US,Brazil South,Medium
+CG-0015,J. Davis,AWS,Pre-Validation,2026-03-22,,,Architecture Diagram,us-east-1|us-east-2|us-west-2,us-east-2,Medium
+CG-0016,M. Patel,AWS,Security Review,2026-03-30,,,Architecture Diagram,us-east-1|us-east-2|us-west-2,ap-southeast-1,Medium
+CG-0017, J. Davis ,Azure,Pre-Validation,2026-07-05,,,Architecture Diagram,East US|East US 2|Central US,East US,Medium
+CG-0018,R. Thompson,Azure,Final Triage,2026-04-10,,,Security Questionnaire,East US|East US 2|Central US, West Europe ,Low
+CG-0019,K. Williams,GCP,Approved,2026-07-15,,,Cost Estimate,us-east1|us-central1|us-east4,us-east1,High
+CG-0020,A. Johnson,AWS,Security Review,2026-06-19,,,Security Questionnaire,us-east-1|us-east-2|us-west-2,us-west-2,Critical
+CG-0021,A. Johnson,GCP,Approved,2026-05-11,,,Cost Estimate,us-east1|us-central1|us-east4,asia-east1,High
+CG-0022,m. patel,AWS,Pre-Validation,2026-03-10,,,Data Classification,us-east-1|us-east-2|us-west-2,ap-southeast-1,Medium
+CG-0023,A. Johnson,GCP,Security Review,2026-07-17,,,,us-east1|us-central1|us-east4,asia-east1,Critical
+CG-0024,A. Johnson,AWS,Pre-Validation,2026-05-17,,,Cost Estimate,us-east-1|us-east-2|us-west-2,us-east-1,Low
+CG-0025,J. Davis,AWS,Approved,2026-06-30,,,Architecture Diagram,us-east-1|us-east-2|us-west-2,ap-southeast-1,Medium
+CG-0026,S. Chen,gcp,Architecture Review,2026-06-05,,,Cost Estimate,us-east1|us-central1|us-east4,us-east4,Critical
+CG-0027,J. Davis,GCP,Security Review,2026-05-27,,,Architecture Diagram; Data Classification,us-east1|us-central1|us-east4, us-east4 ,Medium
+CG-0028,K. Williams,GCP,Pre-Validation,2026-03-24,,,,us-east1|us-central1|us-east4,us-east1,Low
+CG-0029,J. Davis,GCP,Pre-Validation,2026-05-20,,,,us-east1|us-central1|us-east4,asia-east1,Medium
+CG-0030,R. Thompson,Azure,Approved,2026-06-30,,,,East US|East US 2|Central US,East US,Low
+CG-0031,R. Thompson,GCP,Architecture Review,2026-03-15,,,Architecture Diagram; Data Classification,us-east1|us-central1|us-east4,us-central1,Medium
+CG-0032,J. Davis,Azure,Pre-Validation,2026-03-18,,,,East US|East US 2|Central US,West Europe,Medium
+CG-0033,j. davis,AWS,Approved,2026-04-03,,,,us-east-1|us-east-2|us-west-2,eu-west-1,Medium
+CG-0034, A. Johnson ,GCP,Security Review,2026-06-22,,,Data Classification,us-east1|us-central1|us-east4,us-east1,Low
+CG-0035,K. Williams,Azure,Pre-Validation,2026-03-02,,,Architecture Diagram,East US|East US 2|Central US,West Europe,Medium
+CG-0036,R. Thompson,Azure,Intake,2026-03-26,,,Architecture Diagram; Data Classification,East US|East US 2|Central US, Brazil South ,High
+CG-0037,M. Patel,Azure,Security Review,2026-05-18,,,Security Questionnaire,East US|East US 2|Central US,East US 2,High
+CG-0038,K. Williams,Azure,Intake,2026-06-05,,,Security Questionnaire,East US|East US 2|Central US,West Europe,Critical
+CG-0039,R. Thompson,aws,Approved,2026-05-05,,,Architecture Diagram; Data Classification,us-east-1|us-east-2|us-west-2,eu-west-1,Medium
+CG-0040,R. Thompson,AWS,Pre-Validation,2026-06-08,,,,us-east-1|us-east-2|us-west-2,us-east-2,High
+CG-0041,R. Thompson,Azure,Intake,2026-04-28,,,Security Questionnaire,East US|East US 2|Central US,East US,High
+CG-0042,M. Patel,GCP,On Hold,2026-06-07,,,,us-east1|us-central1|us-east4,us-east1,Low
+CG-0043,M. Patel,Azure,Intake,2026-05-18,,,Cost Estimate,East US|East US 2|Central US,West Europe,Medium
+CG-0044,r. thompson,Azure,Final Triage,2026-06-27,,,Cost Estimate,East US|East US 2|Central US,West Europe,Low
+CG-0045,M. Patel,AWS,Pre-Validation,2026-05-26,,,Security Questionnaire,us-east-1|us-east-2|us-west-2, us-west-2 ,Medium
+CG-0046,A. Johnson,AWS,On Hold,2026-03-22,,,,us-east-1|us-east-2|us-west-2,us-west-2,Medium
+CG-0047,K. Williams,GCP,Architecture Review,2026-06-22,,,Cost Estimate,us-east1|us-central1|us-east4,us-east1,Low
+CG-0048,S. Chen,AWS,Security Review,2026-06-30,,,Architecture Diagram,us-east-1|us-east-2|us-west-2,us-east-2,High
+CG-0049,J. Davis,GCP,On Hold,2026-05-01,,,Security Questionnaire; Cost Estimate,us-east1|us-central1|us-east4,asia-east1,Medium
+CG-0050,M. Patel,GCP,On Hold,2026-02-26,,,,us-east1|us-central1|us-east4,us-east4,Low
+CG-0051, M. Patel ,Azure,Pre-Validation,2026-02-26,,,Cost Estimate,East US|East US 2|Central US,East US 2,High
+CG-0052,A. Johnson,azure,Architecture Review,2026-05-11,,,Security Questionnaire; Cost Estimate,East US|East US 2|Central US,Brazil South,Low
+CG-0053,M. Patel,AWS,Intake,2026-05-08,,,Security Questionnaire; Cost Estimate,us-east-1|us-east-2|us-west-2,us-east-1,Medium
+CG-0054,R. Thompson,AWS,Architecture Review,2026-06-06,,,Security Questionnaire,us-east-1|us-east-2|us-west-2, eu-west-1 ,Low
+CG-0055,r. thompson,Azure,Intake,2026-06-09,,,Data Classification,East US|East US 2|Central US,Brazil South,Medium
+CG-0056,A. Johnson,AWS,Security Review,2026-06-15,,,Security Questionnaire; Cost Estimate,us-east-1|us-east-2|us-west-2,us-east-1,High
+CG-0057,S. Chen,Azure,Security Review,2026-05-15,,,Cost Estimate,East US|East US 2|Central US,East US,Critical
+CG-0058,M. Patel,GCP,Approved,2026-06-08,,,Security Questionnaire; Cost Estimate,us-east1|us-central1|us-east4,us-central1,High
+CG-0059,J. Davis,Azure,Approved,2026-06-02,,,Security Questionnaire,East US|East US 2|Central US,Central US,High
+CG-0060,S. Chen,Azure,Approved,2026-05-10,,,,East US|East US 2|Central US,East US 2,High

@@ -1,0 +1,10 @@
+{
+  "total_use_cases": 60,
+  "red_use_cases": 32,
+  "yellow_use_cases": 14,
+  "green_use_cases": 14,
+  "missing_evidence": 46,
+  "non_compliant_regions": 24,
+  "average_days_in_stage": 72.5,
+  "oldest_open_item_days": 146
+}

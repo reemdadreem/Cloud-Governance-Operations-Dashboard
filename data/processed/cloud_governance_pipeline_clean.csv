@@ -1,0 +1,61 @@
+Use Case ID,Owner,Cloud Provider,Current Stage,Submission Date,Days in Stage,Health Status,Missing Evidence,Approved Region,Actual Region,Risk Level,Evidence Status,Region Compliance,Escalation Required
+CG-0051,M. Patel,Azure,Pre-Validation,2026-02-26,146,Red,Cost Estimate,East US|East US 2|Central US,East US 2,High,Missing,Compliant,Yes
+CG-0050,M. Patel,GCP,On Hold,2026-02-26,146,Red,,us-east1|us-central1|us-east4,us-east4,Low,Complete,Compliant,Yes
+CG-0002,A. Johnson,Azure,Final Triage,2026-02-28,144,Red,,East US|East US 2|Central US,East US,Low,Complete,Compliant,Yes
+CG-0035,K. Williams,Azure,Pre-Validation,2026-03-02,142,Red,Architecture Diagram,East US|East US 2|Central US,West Europe,Medium,Missing,Non-Compliant,Yes
+CG-0003,J. Davis,Azure,Intake,2026-03-10,134,Red,Architecture Diagram,East US|East US 2|Central US,Brazil South,Medium,Missing,Non-Compliant,Yes
+CG-0022,M. Patel,AWS,Pre-Validation,2026-03-10,134,Red,Data Classification,us-east-1|us-east-2|us-west-2,ap-southeast-1,Medium,Missing,Non-Compliant,Yes
+CG-0031,R. Thompson,GCP,Architecture Review,2026-03-15,129,Red,Architecture Diagram; Data Classification,us-east1|us-central1|us-east4,us-central1,Medium,Missing,Compliant,Yes
+CG-0032,J. Davis,Azure,Pre-Validation,2026-03-18,126,Red,,East US|East US 2|Central US,West Europe,Medium,Complete,Non-Compliant,Yes
+CG-0007,A. Johnson,GCP,Pre-Validation,2026-03-22,122,Red,Security Questionnaire,us-east1|us-central1|us-east4,asia-east1,Medium,Missing,Non-Compliant,Yes
+CG-0015,J. Davis,AWS,Pre-Validation,2026-03-22,122,Red,Architecture Diagram,us-east-1|us-east-2|us-west-2,us-east-2,Medium,Missing,Compliant,Yes
+CG-0046,A. Johnson,AWS,On Hold,2026-03-22,122,Red,,us-east-1|us-east-2|us-west-2,us-west-2,Medium,Complete,Compliant,Yes
+CG-0028,K. Williams,GCP,Pre-Validation,2026-03-24,120,Red,,us-east1|us-central1|us-east4,us-east1,Low,Complete,Compliant,Yes
+CG-0036,R. Thompson,Azure,Intake,2026-03-26,118,Red,Architecture Diagram; Data Classification,East US|East US 2|Central US,Brazil South,High,Missing,Non-Compliant,Yes
+CG-0016,M. Patel,AWS,Security Review,2026-03-30,114,Red,Architecture Diagram,us-east-1|us-east-2|us-west-2,ap-southeast-1,Medium,Missing,Non-Compliant,Yes
+CG-0005,K. Williams,Azure,Pre-Validation,2026-03-31,113,Red,Architecture Diagram,East US|East US 2|Central US,Central US,Low,Missing,Compliant,Yes
+CG-0004,A. Johnson,GCP,Security Review,2026-04-01,112,Red,Data Classification,us-east1|us-central1|us-east4,us-central1,High,Missing,Compliant,Yes
+CG-0018,R. Thompson,Azure,Final Triage,2026-04-10,103,Red,Security Questionnaire,East US|East US 2|Central US,West Europe,Low,Missing,Non-Compliant,Yes
+CG-0012,J. Davis,AWS,On Hold,2026-04-11,102,Red,Architecture Diagram; Data Classification,us-east-1|us-east-2|us-west-2,us-west-2,Medium,Missing,Compliant,Yes
+CG-0008,A. Johnson,GCP,Pre-Validation,2026-04-16,97,Red,,us-east1|us-central1|us-east4,asia-east1,Medium,Complete,Non-Compliant,Yes
+CG-0049,J. Davis,GCP,On Hold,2026-05-01,82,Red,Security Questionnaire; Cost Estimate,us-east1|us-central1|us-east4,asia-east1,Medium,Missing,Non-Compliant,Yes
+CG-0052,A. Johnson,Azure,Architecture Review,2026-05-11,72,Red,Security Questionnaire; Cost Estimate,East US|East US 2|Central US,Brazil South,Low,Missing,Non-Compliant,Yes
+CG-0057,S. Chen,Azure,Security Review,2026-05-15,68,Red,Cost Estimate,East US|East US 2|Central US,East US,Critical,Missing,Compliant,Yes
+CG-0043,M. Patel,Azure,Intake,2026-05-18,65,Red,Cost Estimate,East US|East US 2|Central US,West Europe,Medium,Missing,Non-Compliant,Yes
+CG-0029,J. Davis,GCP,Pre-Validation,2026-05-20,63,Red,,us-east1|us-central1|us-east4,asia-east1,Medium,Complete,Non-Compliant,Yes
+CG-0026,S. Chen,GCP,Architecture Review,2026-06-05,47,Red,Cost Estimate,us-east1|us-central1|us-east4,us-east4,Critical,Missing,Compliant,Yes
+CG-0038,K. Williams,Azure,Intake,2026-06-05,47,Red,Security Questionnaire,East US|East US 2|Central US,West Europe,Critical,Missing,Non-Compliant,Yes
+CG-0054,R. Thompson,AWS,Architecture Review,2026-06-06,46,Red,Security Questionnaire,us-east-1|us-east-2|us-west-2,eu-west-1,Low,Missing,Non-Compliant,Yes
+CG-0055,R. Thompson,Azure,Intake,2026-06-09,43,Red,Data Classification,East US|East US 2|Central US,Brazil South,Medium,Missing,Non-Compliant,Yes
+CG-0020,A. Johnson,AWS,Security Review,2026-06-19,33,Red,Security Questionnaire,us-east-1|us-east-2|us-west-2,us-west-2,Critical,Missing,Compliant,Yes
+CG-0044,R. Thompson,Azure,Final Triage,2026-06-27,25,Red,Cost Estimate,East US|East US 2|Central US,West Europe,Low,Missing,Non-Compliant,Yes
+CG-0011,J. Davis,GCP,Final Triage,2026-06-29,23,Red,Cost Estimate,us-east1|us-central1|us-east4,asia-east1,Low,Missing,Non-Compliant,Yes
+CG-0023,A. Johnson,GCP,Security Review,2026-07-17,5,Red,,us-east1|us-central1|us-east4,asia-east1,Critical,Complete,Non-Compliant,Yes
+CG-0013,K. Williams,GCP,Pre-Validation,2026-04-25,88,Yellow,,us-east1|us-central1|us-east4,us-east1,Medium,Complete,Compliant,No
+CG-0041,R. Thompson,Azure,Intake,2026-04-28,85,Yellow,Security Questionnaire,East US|East US 2|Central US,East US,High,Missing,Compliant,No
+CG-0053,M. Patel,AWS,Intake,2026-05-08,75,Yellow,Security Questionnaire; Cost Estimate,us-east-1|us-east-2|us-west-2,us-east-1,Medium,Missing,Compliant,No
+CG-0024,A. Johnson,AWS,Pre-Validation,2026-05-17,66,Yellow,Cost Estimate,us-east-1|us-east-2|us-west-2,us-east-1,Low,Missing,Compliant,No
+CG-0037,M. Patel,Azure,Security Review,2026-05-18,65,Yellow,Security Questionnaire,East US|East US 2|Central US,East US 2,High,Missing,Compliant,No
+CG-0045,M. Patel,AWS,Pre-Validation,2026-05-26,57,Yellow,Security Questionnaire,us-east-1|us-east-2|us-west-2,us-west-2,Medium,Missing,Compliant,No
+CG-0027,J. Davis,GCP,Security Review,2026-05-27,56,Yellow,Architecture Diagram; Data Classification,us-east1|us-central1|us-east4,us-east4,Medium,Missing,Compliant,No
+CG-0010,K. Williams,AWS,Security Review,2026-06-06,46,Yellow,Architecture Diagram; Data Classification,us-east-1|us-east-2|us-west-2,us-west-2,High,Missing,Compliant,No
+CG-0040,R. Thompson,AWS,Pre-Validation,2026-06-08,44,Yellow,,us-east-1|us-east-2|us-west-2,us-east-2,High,Complete,Compliant,No
+CG-0056,A. Johnson,AWS,Security Review,2026-06-15,37,Yellow,Security Questionnaire; Cost Estimate,us-east-1|us-east-2|us-west-2,us-east-1,High,Missing,Compliant,No
+CG-0034,A. Johnson,GCP,Security Review,2026-06-22,30,Yellow,Data Classification,us-east1|us-central1|us-east4,us-east1,Low,Missing,Compliant,No
+CG-0047,K. Williams,GCP,Architecture Review,2026-06-22,30,Yellow,Cost Estimate,us-east1|us-central1|us-east4,us-east1,Low,Missing,Compliant,No
+CG-0048,S. Chen,AWS,Security Review,2026-06-30,22,Yellow,Architecture Diagram,us-east-1|us-east-2|us-west-2,us-east-2,High,Missing,Compliant,No
+CG-0017,J. Davis,Azure,Pre-Validation,2026-07-05,17,Yellow,Architecture Diagram,East US|East US 2|Central US,East US,Medium,Missing,Compliant,No
+CG-0033,J. Davis,AWS,Approved,2026-04-03,110,Green,,us-east-1|us-east-2|us-west-2,eu-west-1,Medium,Complete,Non-Compliant,No
+CG-0039,R. Thompson,AWS,Approved,2026-05-05,78,Green,Architecture Diagram; Data Classification,us-east-1|us-east-2|us-west-2,eu-west-1,Medium,Missing,Non-Compliant,No
+CG-0060,S. Chen,Azure,Approved,2026-05-10,73,Green,,East US|East US 2|Central US,East US 2,High,Complete,Compliant,No
+CG-0021,A. Johnson,GCP,Approved,2026-05-11,72,Green,Cost Estimate,us-east1|us-central1|us-east4,asia-east1,High,Missing,Non-Compliant,No
+CG-0014,M. Patel,Azure,Approved,2026-05-24,59,Green,Data Classification,East US|East US 2|Central US,Brazil South,Medium,Missing,Non-Compliant,No
+CG-0059,J. Davis,Azure,Approved,2026-06-02,50,Green,Security Questionnaire,East US|East US 2|Central US,Central US,High,Missing,Compliant,No
+CG-0042,M. Patel,GCP,On Hold,2026-06-07,45,Green,,us-east1|us-central1|us-east4,us-east1,Low,Complete,Compliant,No
+CG-0058,M. Patel,GCP,Approved,2026-06-08,44,Green,Security Questionnaire; Cost Estimate,us-east1|us-central1|us-east4,us-central1,High,Missing,Compliant,No
+CG-0001,M. Patel,GCP,Approved,2026-06-19,33,Green,Architecture Diagram,us-east1|us-central1|us-east4,us-east1,Low,Missing,Compliant,No
+CG-0006,K. Williams,AWS,Approved,2026-06-23,29,Green,Cost Estimate,us-east-1|us-east-2|us-west-2,us-west-2,High,Missing,Compliant,No
+CG-0009,K. Williams,AWS,Approved,2026-06-27,25,Green,Security Questionnaire,us-east-1|us-east-2|us-west-2,us-east-2,Medium,Missing,Compliant,No
+CG-0030,R. Thompson,Azure,Approved,2026-06-30,22,Green,,East US|East US 2|Central US,East US,Low,Complete,Compliant,No
+CG-0025,J. Davis,AWS,Approved,2026-06-30,22,Green,Architecture Diagram,us-east-1|us-east-2|us-west-2,ap-southeast-1,Medium,Missing,Non-Compliant,No
+CG-0019,K. Williams,GCP,Approved,2026-07-15,7,Green,Cost Estimate,us-east1|us-central1|us-east4,us-east1,High,Missing,Compliant,No
