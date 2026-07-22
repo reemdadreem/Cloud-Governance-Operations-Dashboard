@@ -17,6 +17,229 @@ st.set_page_config(
 
 
 # ---------------------------------------------------------
+# ENTERPRISE UI STYLING
+# ---------------------------------------------------------
+
+st.markdown(
+    """
+    <style>
+        .stApp {
+            background:
+                radial-gradient(circle at top right, rgba(33, 150, 243, 0.08), transparent 28%),
+                radial-gradient(circle at top left, rgba(0, 188, 212, 0.05), transparent 22%);
+        }
+
+        [data-testid="stSidebar"] {
+            border-right: 1px solid rgba(128, 128, 128, 0.18);
+        }
+
+        [data-testid="stSidebar"] .block-container {
+            padding-top: 1.4rem;
+        }
+
+        .dashboard-hero {
+            padding: 1.35rem 1.5rem 1.2rem;
+            border: 1px solid rgba(128, 128, 128, 0.22);
+            border-radius: 18px;
+            background: linear-gradient(
+                135deg,
+                rgba(17, 24, 39, 0.96),
+                rgba(15, 70, 95, 0.90)
+            );
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.16);
+            margin-bottom: 1rem;
+        }
+
+        .dashboard-eyebrow {
+            font-size: 0.76rem;
+            font-weight: 700;
+            letter-spacing: 0.13em;
+            text-transform: uppercase;
+            color: #7dd3fc;
+            margin-bottom: 0.4rem;
+        }
+
+        .dashboard-title {
+            font-size: clamp(1.8rem, 3vw, 2.8rem);
+            font-weight: 800;
+            line-height: 1.05;
+            color: #f8fafc;
+            margin: 0;
+        }
+
+        .dashboard-subtitle {
+            max-width: 860px;
+            margin-top: 0.65rem;
+            color: #cbd5e1;
+            font-size: 1rem;
+            line-height: 1.55;
+        }
+
+        .hero-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.55rem;
+            margin-top: 1rem;
+        }
+
+        .hero-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            padding: 0.4rem 0.7rem;
+            border: 1px solid rgba(255, 255, 255, 0.16);
+            border-radius: 999px;
+            background: rgba(255, 255, 255, 0.07);
+            color: #e2e8f0;
+            font-size: 0.83rem;
+        }
+
+        .section-heading {
+            margin-top: 1.1rem;
+            margin-bottom: 0.15rem;
+            font-size: 1.15rem;
+            font-weight: 750;
+        }
+
+        .section-caption {
+            color: #94a3b8;
+            margin-bottom: 0.75rem;
+            font-size: 0.92rem;
+        }
+
+        .kpi-card {
+            min-height: 148px;
+            padding: 1rem 1rem 0.9rem;
+            border: 1px solid rgba(128, 128, 128, 0.20);
+            border-radius: 16px;
+            background: rgba(255, 255, 255, 0.035);
+            box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+        }
+
+        .kpi-topline {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 0.5rem;
+        }
+
+        .kpi-icon {
+            font-size: 1.15rem;
+        }
+
+        .kpi-label {
+            color: #94a3b8;
+            font-size: 0.82rem;
+            font-weight: 650;
+            letter-spacing: 0.02em;
+        }
+
+        .kpi-value {
+            margin-top: 0.45rem;
+            font-size: 2rem;
+            font-weight: 800;
+            line-height: 1;
+        }
+
+        .kpi-note {
+            margin-top: 0.55rem;
+            color: #94a3b8;
+            font-size: 0.76rem;
+            line-height: 1.35;
+        }
+
+        .tone-blue { color: #38bdf8; }
+        .tone-red { color: #fb7185; }
+        .tone-amber { color: #fbbf24; }
+        .tone-green { color: #4ade80; }
+        .tone-violet { color: #a78bfa; }
+        .tone-slate { color: #e2e8f0; }
+
+        .attention-banner {
+            padding: 0.9rem 1rem;
+            border-left: 4px solid #fb7185;
+            border-radius: 10px;
+            background: rgba(244, 63, 94, 0.08);
+            margin-bottom: 0.8rem;
+        }
+
+        .attention-title {
+            color: #fecdd3;
+            font-weight: 750;
+            margin-bottom: 0.15rem;
+        }
+
+        .attention-copy {
+            color: #cbd5e1;
+            font-size: 0.88rem;
+            margin: 0;
+        }
+
+        .sidebar-brand {
+            padding: 0.85rem 0.9rem;
+            border: 1px solid rgba(128, 128, 128, 0.20);
+            border-radius: 14px;
+            background: rgba(255, 255, 255, 0.035);
+            margin-bottom: 1rem;
+        }
+
+        .sidebar-brand-title {
+            font-weight: 800;
+            font-size: 1rem;
+        }
+
+        .sidebar-brand-copy {
+            color: #94a3b8;
+            font-size: 0.78rem;
+            line-height: 1.35;
+            margin-top: 0.2rem;
+        }
+
+        .filter-summary {
+            padding: 0.75rem 0.85rem;
+            border-radius: 12px;
+            background: rgba(56, 189, 248, 0.08);
+            border: 1px solid rgba(56, 189, 248, 0.18);
+            margin-top: 0.8rem;
+        }
+
+        .filter-summary strong {
+            color: #7dd3fc;
+        }
+
+        .footer {
+            margin-top: 2rem;
+            padding: 1.2rem 0 0.7rem;
+            border-top: 1px solid rgba(128, 128, 128, 0.18);
+            color: #94a3b8;
+            font-size: 0.78rem;
+            text-align: center;
+        }
+
+        div[data-testid="stDataFrame"] {
+            border: 1px solid rgba(128, 128, 128, 0.16);
+            border-radius: 14px;
+            overflow: hidden;
+        }
+
+        div[data-testid="stVegaLiteChart"] {
+            border: 1px solid rgba(128, 128, 128, 0.14);
+            border-radius: 14px;
+            padding: 0.4rem;
+            background: rgba(255, 255, 255, 0.018);
+        }
+
+        .block-container {
+            padding-top: 1.4rem;
+            padding-bottom: 2rem;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
+
+# ---------------------------------------------------------
 # FILE PATHS
 # ---------------------------------------------------------
 
@@ -35,12 +258,7 @@ DATA_FILE = (
 
 @st.cache_data
 def load_data(file_path: Path) -> pd.DataFrame:
-    """
-    Load and prepare the processed governance dataset.
-
-    Streamlit caches the result so the CSV is not reloaded
-    every time the user interacts with a filter.
-    """
+    """Load and prepare the processed governance dataset."""
     if not file_path.exists():
         raise FileNotFoundError(
             f"Processed data file was not found: {file_path}"
@@ -124,10 +342,7 @@ def filter_dataframe(
     }
 
     for column_name, selected_values in filter_map.items():
-        if (
-            selected_values
-            and column_name in filtered.columns
-        ):
+        if selected_values and column_name in filtered.columns:
             filtered = filtered[
                 filtered[column_name]
                 .astype(str)
@@ -167,10 +382,57 @@ def format_date_range(dataframe: pd.DataFrame) -> str:
     earliest = dataframe["Submission Date"].min()
     latest = dataframe["Submission Date"].max()
 
-    return (
-        f"Submission period: "
-        f"{earliest:%b %d, %Y} – {latest:%b %d, %Y}"
+    return f"{earliest:%b %d, %Y} – {latest:%b %d, %Y}"
+
+
+def calculate_average_aging(dataframe: pd.DataFrame) -> float:
+    """Return the average number of days in the current stage."""
+    if "Days in Stage" not in dataframe.columns or dataframe.empty:
+        return 0.0
+
+    return float(dataframe["Days in Stage"].mean())
+
+
+def calculate_compliance_rate(dataframe: pd.DataFrame) -> float:
+    """Return the percentage of region-compliant records."""
+    if "Region Compliance" not in dataframe.columns or dataframe.empty:
+        return 0.0
+
+    compliant = count_matches(
+        dataframe,
+        "Region Compliance",
+        "Compliant",
     )
+
+    return (compliant / len(dataframe)) * 100
+
+
+def render_kpi_card(
+    icon: str,
+    label: str,
+    value: str,
+    note: str,
+    tone: str,
+) -> None:
+    """Render a custom executive KPI card."""
+    st.markdown(
+        f"""
+        <div class="kpi-card">
+            <div class="kpi-topline">
+                <div class="kpi-label">{label}</div>
+                <div class="kpi-icon">{icon}</div>
+            </div>
+            <div class="kpi-value {tone}">{value}</div>
+            <div class="kpi-note">{note}</div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
+def active_filter_count(*filter_groups: list[str]) -> int:
+    """Return the number of filters with at least one selection."""
+    return sum(bool(group) for group in filter_groups)
 
 
 # ---------------------------------------------------------
@@ -178,11 +440,22 @@ def format_date_range(dataframe: pd.DataFrame) -> str:
 # ---------------------------------------------------------
 
 with st.sidebar:
-    st.title("Dashboard Filters")
+    st.markdown(
+        """
+        <div class="sidebar-brand">
+            <div class="sidebar-brand-title">☁️ Governance Control Center</div>
+            <div class="sidebar-brand-copy">
+                Interactive operational reporting for cloud governance,
+                risk, evidence, and compliance oversight.
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
 
+    st.subheader("⚙️ Dashboard Filters")
     st.caption(
-        "Use the filters below to isolate risk, ownership, "
-        "provider, and workflow conditions."
+        "Isolate specific ownership, risk, provider, and workflow conditions."
     )
 
     provider_options = available_values(df, "Cloud Provider")
@@ -228,17 +501,13 @@ with st.sidebar:
         options=evidence_options,
         placeholder="All evidence statuses",
     )
+
     selected_region = st.multiselect(
         "Region Compliance",
         options=region_options,
         placeholder="All region statuses",
     )
 
-    st.divider()
-
-    st.caption(
-        "Clear selections manually to return to the full dataset."
-    )
 
 filtered_df = filter_dataframe(
     dataframe=df,
@@ -252,30 +521,61 @@ filtered_df = filter_dataframe(
 )
 
 
+with st.sidebar:
+    selected_filter_total = active_filter_count(
+        selected_providers,
+        selected_owners,
+        selected_stages,
+        selected_health,
+        selected_risk,
+        selected_evidence,
+        selected_region,
+    )
+
+    st.markdown(
+        f"""
+        <div class="filter-summary">
+            <strong>{len(filtered_df):,}</strong> of
+            <strong>{len(df):,}</strong> requests shown<br>
+            <span style="font-size:0.76rem;color:#94a3b8;">
+                {selected_filter_total} active filter group(s)
+            </span>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+    st.caption("Clear selections manually to return to the full dataset.")
+
+
 # ---------------------------------------------------------
 # DASHBOARD HEADER
 # ---------------------------------------------------------
 
-st.title("☁️ Cloud Governance Operations Center")
-
 st.markdown(
-    """
-    Executive visibility into governance pipeline health,
-    compliance exceptions, operational aging, and risk.
-    """
+    f"""
+    <div class="dashboard-hero">
+        <div class="dashboard-eyebrow">
+            Enterprise Governance &amp; Compliance Operations
+        </div>
+        <h1 class="dashboard-title">
+            Cloud Governance Operations Center
+        </h1>
+        <div class="dashboard-subtitle">
+            Executive visibility into pipeline health, operational aging,
+            compliance exceptions, evidence readiness, and cloud risk.
+        </div>
+        <div class="hero-meta">
+            <span class="hero-pill">📅 {format_date_range(filtered_df)}</span>
+            <span class="hero-pill">
+                📋 {len(filtered_df):,} of {len(df):,} use cases
+            </span>
+            <span class="hero-pill">🔄 Processed dataset</span>
+        </div>
+    </div>
+    """,
+    unsafe_allow_html=True,
 )
-
-header_col_1, header_col_2 = st.columns([3, 1])
-
-with header_col_1:
-    st.caption(format_date_range(filtered_df))
-
-with header_col_2:
-    st.caption(
-        f"Showing **{len(filtered_df):,}** of **{len(df):,}** use cases"
-    )
-
-st.divider()
 
 
 # ---------------------------------------------------------
@@ -303,45 +603,76 @@ region_exceptions = count_matches(
     "Region Compliance",
     "Non-Compliant",
 )
+average_aging = calculate_average_aging(filtered_df)
+compliance_rate = calculate_compliance_rate(filtered_df)
 
-kpi_1, kpi_2, kpi_3, kpi_4, kpi_5 = st.columns(5)
+st.markdown(
+    '<div class="section-heading">Executive Snapshot</div>',
+    unsafe_allow_html=True,
+)
+st.markdown(
+    '<div class="section-caption">'
+    'Current operational posture based on the selected governance population.'
+    '</div>',
+    unsafe_allow_html=True,
+)
+
+kpi_1, kpi_2, kpi_3 = st.columns(3)
+kpi_4, kpi_5, kpi_6 = st.columns(3)
 
 with kpi_1:
-    st.metric(
-        label="Total Requests",
-        value=f"{total_requests:,}",
-        help="Total governance use cases matching the current filters.",
+    render_kpi_card(
+        "📋",
+        "Open Requests",
+        f"{total_requests:,}",
+        "Governance use cases matching the current filters.",
+        "tone-blue",
     )
 
 with kpi_2:
-    st.metric(
-        label="Critical Risks",
-        value=f"{critical_risks:,}",
-        help="Use cases currently classified as Critical risk.",
+    render_kpi_card(
+        "🚨",
+        "Critical Risks",
+        f"{critical_risks:,}",
+        "Items requiring immediate risk review or escalation.",
+        "tone-red",
     )
 
 with kpi_3:
-    st.metric(
-        label="Red Health",
-        value=f"{red_health:,}",
-        help="Use cases requiring immediate governance attention.",
+    render_kpi_card(
+        "🔴",
+        "Red Health",
+        f"{red_health:,}",
+        "Requests currently outside acceptable operating health.",
+        "tone-red",
     )
 
 with kpi_4:
-    st.metric(
-        label="Missing Evidence",
-        value=f"{missing_evidence:,}",
-        help="Use cases with incomplete governance evidence.",
+    render_kpi_card(
+        "📎",
+        "Missing Evidence",
+        f"{missing_evidence:,}",
+        "Requests with incomplete governance documentation.",
+        "tone-amber",
     )
 
 with kpi_5:
-    st.metric(
-        label="Region Exceptions",
-        value=f"{region_exceptions:,}",
-        help="Use cases operating outside approved cloud regions.",
+    render_kpi_card(
+        "🗺️",
+        "Region Exceptions",
+        f"{region_exceptions:,}",
+        "Use cases operating outside approved cloud regions.",
+        "tone-violet",
     )
 
-st.divider()
+with kpi_6:
+    render_kpi_card(
+        "✅",
+        "Region Compliance",
+        f"{compliance_rate:.0f}%",
+        f"Average aging is {average_aging:.1f} days in the current stage.",
+        "tone-green",
+    )
 
 
 # ---------------------------------------------------------
@@ -356,8 +687,19 @@ if filtered_df.empty:
 
 
 # ---------------------------------------------------------
-# CHART ROW 1
+# OPERATIONS ANALYTICS
 # ---------------------------------------------------------
+
+st.markdown(
+    '<div class="section-heading">Operational Analytics</div>',
+    unsafe_allow_html=True,
+)
+st.markdown(
+    '<div class="section-caption">'
+    'Pipeline distribution, health posture, provider risk, and aging trends.'
+    '</div>',
+    unsafe_allow_html=True,
+)
 
 chart_col_1, chart_col_2 = st.columns(2)
 
@@ -402,10 +744,6 @@ with chart_col_2:
         st.info("Health Status data is unavailable.")
 
 
-# ---------------------------------------------------------
-# CHART ROW 2
-# ---------------------------------------------------------
-
 chart_col_3, chart_col_4 = st.columns(2)
 
 with chart_col_3:
@@ -449,18 +787,27 @@ with chart_col_4:
     else:
         st.info("Aging data is unavailable.")
 
-st.divider()
-
 
 # ---------------------------------------------------------
 # LEADERSHIP EXCEPTION QUEUE
 # ---------------------------------------------------------
 
-st.subheader("Leadership Exception Queue")
+st.markdown(
+    '<div class="section-heading">Leadership Exception Queue</div>',
+    unsafe_allow_html=True,
+)
 
-st.caption(
-    "Priority governance items requiring escalation, remediation, "
-    "or documented risk acceptance."
+st.markdown(
+    """
+    <div class="attention-banner">
+        <div class="attention-title">🚨 Priority Governance Attention</div>
+        <p class="attention-copy">
+            This queue surfaces records with red health, critical risk,
+            missing evidence, or non-compliant cloud-region usage.
+        </p>
+    </div>
+    """,
+    unsafe_allow_html=True,
 )
 
 exception_conditions = pd.Series(
@@ -502,10 +849,31 @@ if "Evidence Status" in filtered_df.columns:
 
 exception_queue = filtered_df[exception_conditions].copy()
 
-if "Days in Stage" in exception_queue.columns:
+risk_priority = {
+    "Critical": 1,
+    "High": 2,
+    "Medium": 3,
+    "Low": 4,
+}
+
+if "Risk Level" in exception_queue.columns:
+    exception_queue["_Risk Sort"] = (
+        exception_queue["Risk Level"]
+        .map(risk_priority)
+        .fillna(99)
+    )
+
+sort_columns = [
+    column
+    for column in ["_Risk Sort", "Days in Stage"]
+    if column in exception_queue.columns
+]
+
+if sort_columns:
+    ascending = [True if column == "_Risk Sort" else False for column in sort_columns]
     exception_queue = exception_queue.sort_values(
-        by=["Risk Level", "Days in Stage"],
-        ascending=[True, False],
+        by=sort_columns,
+        ascending=ascending,
     )
 
 preferred_exception_columns = [
@@ -537,24 +905,74 @@ else:
         exception_queue[visible_exception_columns],
         width="stretch",
         hide_index=True,
+        column_config={
+            "Days in Stage": st.column_config.NumberColumn(
+                "Days in Stage",
+                format="%d days",
+            ),
+        },
     )
-
-st.divider()
 
 
 # ---------------------------------------------------------
 # FULL GOVERNANCE PIPELINE
 # ---------------------------------------------------------
 
-st.subheader("Full Governance Pipeline")
-
-st.caption(
-    "Detailed operational view of all governance requests "
-    "matching the current filter selection."
+st.markdown(
+    '<div class="section-heading">Governance Pipeline Detail</div>',
+    unsafe_allow_html=True,
+)
+st.markdown(
+    '<div class="section-caption">'
+    'Complete operational view of requests matching the selected filters.'
+    '</div>',
+    unsafe_allow_html=True,
 )
 
+pipeline_df = filtered_df.copy()
+
+if {"Risk Level", "Days in Stage"}.issubset(pipeline_df.columns):
+    pipeline_df["_Risk Sort"] = (
+        pipeline_df["Risk Level"]
+        .map(risk_priority)
+        .fillna(99)
+    )
+    pipeline_df = (
+        pipeline_df
+        .sort_values(
+            by=["_Risk Sort", "Days in Stage"],
+            ascending=[True, False],
+        )
+        .drop(columns=["_Risk Sort"])
+    )
+
 st.dataframe(
-    filtered_df,
+    pipeline_df,
     width="stretch",
     hide_index=True,
+    column_config={
+        "Submission Date": st.column_config.DateColumn(
+            "Submission Date",
+            format="MMM DD, YYYY",
+        ),
+        "Days in Stage": st.column_config.NumberColumn(
+            "Days in Stage",
+            format="%d days",
+        ),
+    },
+)
+
+
+# ---------------------------------------------------------
+# FOOTER
+# ---------------------------------------------------------
+
+st.markdown(
+    """
+    <div class="footer">
+        Cloud Governance Operations Dashboard · Version 1.0<br>
+        Python · Pandas · Streamlit · Built by Kareem Watts
+    </div>
+    """,
+    unsafe_allow_html=True,
 )
